@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-rust",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shell module for rust.",
   "main": "index.sh",
   "repository": {
@@ -8,10 +8,10 @@
     "url": "git+https://github.com/afeiship/ushell-module-rust.git"
   },
   "keywords": [
-    "ushell",
     "unix",
     "shell",
-    "ushell-module-rust"
+    "cargo",
+    "rust"
   ],
   "license": "MIT",
   "bugs": {

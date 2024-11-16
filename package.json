@@ -1,24 +1,28 @@
 {
-  "name": "ushell-module-fir",
-  "version": "0.0.1",
-  "description": "Fir.im notes.",
+  "name": "@jswork/ushell-module-rust",
+  "version": "1.0.0",
+  "description": "Shell module for rust.",
   "main": "index.sh",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/ushell-module-fir.git"
+    "url": "git+https://github.com/afeiship/ushell-module-rust.git"
   },
   "keywords": [
     "ushell",
     "unix",
     "shell",
-    "ushell-module-fir"
-  ],
-  "authors": [
-    "feizheng <1290657123@qq.com>"
+    "ushell-module-rust"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afeiship/ushell-module-fir/issues"
+    "url": "https://github.com/afeiship/ushell-module-rust/issues"
   },
-  "homepage": "https://github.com/afeiship/ushell-module-fir"
+  "homepage": "https://github.com/afeiship/ushell-module-rust",
+  "scripts": {
+    "release": "release-it"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }
